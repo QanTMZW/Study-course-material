@@ -1,0 +1,60 @@
+
+<html>
+<head>
+<div style="position:absolute; top:50px; left:700px">
+<a href="https://www.w3schools.com/" target="_blank">HOME</a>
+</div>
+<div style="position:absolute; top:70px; left:698px">
+<a href="https://www.facebook.com/" target="_blank">ABOUT</a>
+</div>
+<div style="position:absolute; top:90; left:700px">
+<a href="https://www.facebook.com/" target="_blank">BOOK</a>
+</div>
+<div style="position:absolute; top:110; left:685px">
+<a href="https://www.facebook.com/" target="_blank">CONTACT</a>
+</div>
+</head>
+
+<body>
+<p><input type="search" value="" id="search" onchange="openPage()">
+<button type="button" onclick="alert("Butthole")">Search</button></p>
+
+
+<img src="http://dalong.net/reviews/mg/m207/p/m207_14.jpg" alt="Inner Frame Model kit" style="width:250px;height:250px;">
+<h1>
+<style>
+table, th, td {
+  border:1px solid black;
+  tr bgcolor=FFFF00
+}
+</style>
+<table style="width:50%">
+  <tr>
+    <th> </th>
+    <th>Withdraw</th>
+    <th>Credit</th>
+    <th>Balance</th>
+  </tr>
+  <tr>
+    <td>September</td>
+    <td>$250</td>
+    <td>$660</td>
+    <td>$410</td>
+  </tr>
+
+</table>
+</h1>
+<p class="one"><p style="font-family:"Arial">This is the hotpink paragraph, font family is Arial
+<p style="font-family:"Courier">This is the pink paragraph, font family is Courier
+<p style="font-family:"Corsiva">This is the lightpink paragraph, font family is Corsiva</p>
+<button type="button">This is another button</button>
+</p>
+
+<embed type="text/html" src="Assignment_1.html" width="500" height="200">
+
+<p style="border:3px; border-style:solid; border-color:#FF0000; padding: 1em;">First example with text surrounded by a red border.<br>This example also has multiple lines.</p>
+
+<img src="http://dalong.net/reviews/mg/m207/p/m207_14.jpg" alt="Inner Frame Model kit" style="width:250px;height:250px;">
+
+</body>
+</html>

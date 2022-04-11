@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<title>assignment5</title>
+<body>
+  <!---Part A------>
+  <section>
+<h1>Fahrenheit to Celcius Temperature Converter </h1>
+<p>Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+<div class="Celsius">
+<p>
+  <label>Fahrenheit</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+<p>Celcius: <span id="outputCelcius"></span></p>
+
+<script>
+function temperatureConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputCelcius").innerHTML=(valNum-32)/1.8;
+}
+</script>
+</div>
+<div class-"Fahrenheit"
+<h2>Celcius To Fahrenheit Temperature Converter
+<p>Type a value in the Celsius field to convert the value to Fahrenheit:</p>
+<p>
+  <label>Celsius</label>
+  <input id="inputCelius" type="integer" placeholder="Celsius" oninput="revertConverter(this.value)" onchange="revertConverter(this.value)">
+</p>
+<p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+<script>
+function revertConverter(revertNum) {
+  revertNum = parseFloat(revertNum);
+  document.getElementById("outputFahrenheit").innerHTML=(revertNum*1.8)+32;
+}
+</script>
+</div>
+</section>
+<hr class="solid">
+
+
+<!---Part B--->
+
+<section>
+  <form action="none" method="post" name="lucasbmiform">
+  			<fieldset>
+  			<legend>Lucas's Height and Weight</legend>
+  				<label for="pounds">Weight (pounds):</label>
+  				<input type="text" name="pounds" id="lucaspounds">
+  				<br>
+  				<label for="inches">Height (inches):</label>
+  				<input type="text" name="inches" id="lucasinches">
+  				<br>
+  				<button type="button" name="calculate" value="Calculate BMI" onclick="lucascalcBMI()">Calculate BMI</button>
+  			</fieldset>
+  			<fieldset>
+  			<legend>Lucas's BMI</legend>
+  				<label for="bmi" id="bmi_label">Lucas's calculated BMI is:</label>
+  				<input type="text" name="lucasbmi" id="lucasbmi" readonly="readonly">
+  			</fieldset>
+  		</form>
+      <script>
+      function lucascalcBMI() {
+  var weight = document.lucasbmiform.lucaspounds.value, height = document.lucasbmiform.lucasinches.value;
+  document.lucasbmiform.lucasbmi.value = parseInt((weight * 703) / (height * height));
+}
+      </script>
+
+</section>
+<section>
+  <form action="none" method="post" name="johnbmiform">
+  			<fieldset>
+  			<legend>John's Height and Weight</legend>
+  				<label for="pounds">Weight (pounds):</label>
+  				<input type="text" name="pounds" id="johnpounds">
+  				<br>
+  				<label for="inches">Height (inches):</label>
+  				<input type="text" name="inches" id="johninches">
+  				<br>
+  				<button type="button" name="calculate" value="Calculate BMI" onclick="johncalcBMI()">Calculate BMI</button>
+  			</fieldset>
+  			<fieldset>
+  			<legend>John's BMI</legend>
+  				<label for="bmi" id="bmi_label">John's calculated BMI is:</label>
+  				<input type="text" name="johnbmi" id="johnbmi" readonly="readonly">
+  			</fieldset>
+  		</form>
+      <script>
+      function johncalcBMI() {
+  var weight = document.johnbmiform.johnpounds.value, height = document.johnbmiform.johninches.value;
+  document.johnbmiform.johnbmi.value = parseInt((weight * 703) / (height * height));
+}
+      </script>
+</section>
+<section>
+  <p id="result"></p>
+  <script>
+  if ("johnbmi"<"lucasbmi"){
+    Result="Lucas has a higher BMI than John";
+  } else if("johnbmi">"lucasbmi"){
+    Result="John has a higher BMI than Lucas";
+  } else {
+    Result="John and Lucas have an equal BMI";
+  }
+  document.getElementById("result").innerHTML=Result;
+  </script>
+<!--<fieldset>
+<legend>BMI Comparison</legend>
+  <label for="bmi" id="comparisonbmi_label">The result is:</label>
+  <input type="text" name="bmi" id="comparebmi" readonly="readonly">
+</fieldset>
+<script>
+
+if (ageJohnSmigth > 16 && ageJohnSmigth < 30) {
+    console.log("You can drive")
+}
+
+else if (ageJohnSmigth > 30) {
+    console.log("It seems like your should already have a driver license")
+}
+
+else if (ageJohnSmigth <= 10) {
+    console.log("You are too young to get a drive license now")
+}
+
+else console.log("You can't drive now, but you only need to wait for another ? years");
+</script>-->
+</section>
+<hr class="solid">
+
+<!--Part C-->
+<section>
+  <div class="container">
+        <h1>Number Prompt</h1>
+
+        <!-- Option for entering the input on the prompt-->
+        <p>Give me a number</p>
+
+        <input type="text" id="number">
+
+        <button id="btn">Calculate</button>
+
+        <div id="result"></div>
+    </div>
+<script>
+let button = document.querySelector("#btn");
+
+// Function for calculating BMI
+button.addEventListener("click", calculateBMI);
+};
+
+function calculateBMI() {
+
+/* Getting input from user into height variable.
+Input is string so typecasting is necessary. */
+let height = parseInt(document
+    .querySelector("#height").value);
+
+let result = document.querySelector("#result");
+
+// Checking the user providing a proper
+// value or not
+if (number == "8" || isNaN(number))
+  result.innerHTML = "You win 8 points";
+
+else if (number == "10" || isNaN(number))
+  result.innerHTML = "You win 10 points";
+
+// If both input is valid, calculate the bmi
+else {
+  result.innerHTML = "Please Enter a Number!"
+</*function checkWinerPro() {
+
+    const nets1 = Number(prompt('Please enter a number!'));
+    const nets2 = Number(prompt('Please enter a number!'));
+    const nets3 = Number(prompt('Please enter a number!'));
+    const knicks1 = Number(prompt('Please enter a number!'));
+    const knicks2 = Number(prompt('Please enter a number!'));
+    const knicks3 = Number(prompt('Please enter a number!'));
+
+    const avgNestScore = calAvg(nets1, nets2, nets3);
+    const avgKincksScore = calAvg(knicks1, knicks2, knicks3);
+
+
+    if (avgNestScore > avgKincksScore) {
+        return `Nets win-----! the score is${avgNestScore}`;
+    }
+    else { return `Knicks win-----!  the score is ${avgKincksScore}` };
+
+
+}-->*/
+</script>
+
+</section>
+
+</body>
+</html>

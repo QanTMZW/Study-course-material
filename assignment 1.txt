@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Plastic Model Blog</title>
+</head>
+<body>
+<h1> Hey, you've stumbled on to my plastic model kit blog! You Are welcomed to look around! </h1>
+
+<a href="https://www.instagram.com/anonplamo/">Visit Anonplamo, you can reach me here!</a>
+
+<p>This is an inner frame of a Master Grade Dynames.</p>
+
+
+<img src="http://dalong.net/reviews/mg/m207/p/m207_14.jpg" alt="Inner Frame Model kit" style="width:400px;height:500px;">
+
+<h2></h2>
+<a> please let me know what you think, here is my: </a>
+<a href = "mailto: MichaelZouWu@gmail.com">Email</a>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<table style="width:100%">
+  <tr>
+    <th>Model Kit name</th>
+    <th>Release Date</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>MG Dynames</td>
+    <td>March 2019</td>
+    <td>4500 Yen</td>
+  </tr>
+  <tr>
+    <td>MG Virtue</td>
+    <td>November 2021</td>
+    <td>8000 Yen</td>
+  </tr>
+</table>
+
+<div class="scroll-bg">
+    <div class="scroll-div">
+      <div class="scroll-object">
+	ooompah loompa Naruto is an anime series based on Masashi Kishimoto's manga series of the same name. The series centers on the adventures of Naruto Uzumaki, a young ninja of the Hidden Leaf Village, searching for recognitions and wishing to become the ninja by the rest of the village to be the leader and the strongest of all. The series was directed by Hayato Date, and produced by Pierrot and TV Tokyo.[1] The episodes are based on the first twenty-seven volumes in Part I of the manga, while some episodes feature original, self-contained storylines.
+      </div>
+    </div>
+</div>
+
+</body>
+</hmtl>
